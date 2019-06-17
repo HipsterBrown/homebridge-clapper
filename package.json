@@ -2,12 +2,20 @@
   "name": "homebridge-clapper",
   "version": "1.0.0",
   "description": "A clapper switch for homebridge using multicast messages",
-  "files": ["index.js", "lib/"],
+  "files": [
+    "index.js",
+    "lib/"
+  ],
   "main": "index.js",
-  "keywords": ["homebridge-plugin"],
+  "keywords": [
+    "homebridge-plugin"
+  ],
   "engines": {
     "homebridge": ">=0.4.0"
   },
   "author": "HipsterBrown <headhipster@hipsterbrown.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "multicast-eventer": "^1.0.0"
+  }
 }

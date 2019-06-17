@@ -1,5 +1,5 @@
 // make into separate package at some point
-const MulticastEmitter = require('./lib/multicast-events');
+const MulticastEmitter = require('multicast-eventer');
 
 let Service;
 let Characteristic;
